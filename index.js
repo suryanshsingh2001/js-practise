@@ -18,4 +18,5 @@ let tooYoung = arr.filter((item) => item.age <= 30);
 console.log(tooYoung);
 
 // .reduce
-let totalAge = 
+let totalAge = arr.reduce((acc, item) => acc + item.age, 0);
+console.log(totalAge);
